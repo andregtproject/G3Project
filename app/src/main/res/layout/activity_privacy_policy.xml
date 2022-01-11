@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dalam"
+    tools:context=".Settings.PrivacyPolicy">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvPrivacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pp_tvPrivacy"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/tvdalam_color"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/tvDescprivacy"
+            android:layout_below="@+id/tvPrivacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:textColor="@color/tvdalam_color"
+            android:text="@string/pp_descPrivacy"/>
+    </RelativeLayout>
+</ScrollView>

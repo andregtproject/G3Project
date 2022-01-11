@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dalam"
+    android:orientation="vertical"
+    tools:context=".Tools.Flashlight">
+
+
+    <ToggleButton
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnToggleLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:backgroundTint="@color/darkblue"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_border"
+        android:onClick="btnToggleLight" />
+
+    <Switch
+        android:id="@+id/switchFlasher"
+        android:layout_height="wrap_content"
+        android:layout_width="200sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:textColor="@color/darkblue"
+        android:text="@string/fl_strobo"
+        android:onClick="switchImpulses"
+        android:layout_marginBottom="44sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        app:cardBackgroundColor="@color/color_tvbackground"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="7dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fl_slideHigh"
+                android:background="@color/background_tvdalam"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="@color/tvdalam_color" />
+
+            <SeekBar
+                android:id="@+id/seekBarHIGH"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:progress="1000"
+                android:max="1000" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        app:cardBackgroundColor="@color/color_tvbackground"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="7dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fl_slightLow"
+                android:background="@color/background_tvdalam"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="@color/tvdalam_color" />
+
+            <SeekBar
+                android:id="@+id/seekBarLOW"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:progress="1000"
+                android:max="1000" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

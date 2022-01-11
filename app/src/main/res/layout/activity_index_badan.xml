@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Tools.IndexBadan">
+
+    <TextView
+        android:id="@+id/tvBerat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat Badan (Kg)"
+        app:layout_constraintTop_toTopOf="@+id/etBerat"
+        app:layout_constraintBottom_toBottomOf="@+id/etBerat"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/etBerat"/>
+
+    <EditText
+        android:id="@+id/etBerat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="berat dalam KG"
+        android:inputType="number"
+        android:maxLength="3"
+        app:layout_constraintLeft_toRightOf="@+id/tvBerat"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvTinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi Badan (cm)"
+        app:layout_constraintTop_toTopOf="@+id/etTinggi"
+        app:layout_constraintBottom_toBottomOf="@+id/etTinggi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/etTinggi"/>
+
+    <EditText
+        android:id="@+id/etTinggi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="tinggi dalam cm"
+        android:inputType="number"
+        android:maxLength="3"
+        app:layout_constraintLeft_toRightOf="@+id/tvTinggi"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBerat"/>
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung IMT"
+        android:layout_margin="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTinggi"/>
+
+    <TextView
+        android:id="@+id/tvHasilLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil :"
+        app:layout_constraintTop_toBottomOf="@+id/btnHitung"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHasilLabel"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

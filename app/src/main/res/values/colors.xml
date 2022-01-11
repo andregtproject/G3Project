@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color1">#BFBFBF</color>
+    <color name="color2">#F172A1</color>
+    <color name="color3">#D6CE15</color>
+    <color name="color4">#AFD275</color>
+    <color name="color5">#E27D60</color>
+    <color name="color6">#E8A87C</color>
+    <color name="color7">#C38D9E</color>
+    <color name="color8">#41B3A3</color>
+    <color name="color9">#8D8741</color>
+    <color name="color10">#DAAD86</color>
+    <color name="color11">#5CDB95</color>
+    <color name="color12">#AFD275</color>
+
+    <color name="colorPrimary">#656D78</color>
+    <color name="colorPrimaryDark">#3C444C</color>
+
+
+    //color pada main activity
+    <color name="background_color">#F5F7FA</color>
+    <color name="cd_color">#3C444C</color>
+    <color name="color_tvcd">#E6E9ED</color>
+    <color name="color_tvsubtitle">#FFFFFF</color>
+    <color name="darkblue">#950101</color>
+    <color name="three_dots">#000000</color>
+    <color name="color_imgCp">#000000</color>
+    <color name="tv_subtitle">#757575</color>
+    <color name="background_setting">#AEFF0000</color>
+
+    //color pada all activity tools
+    <color name="background_dalam">#FAFAFA</color>
+    <color name="background_tvdalam">#C5C5C5</color>
+    <color name="tvdalam_color">#FF000000</color>
+    <color name="color_tvbackground">#ededed</color>
+    <color name="btnColor">#ba181b</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

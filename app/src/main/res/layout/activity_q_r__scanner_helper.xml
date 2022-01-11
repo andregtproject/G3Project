@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dalam"
+    tools:context=".Helper.ScannerHelper">
+
+    <ImageView
+        android:id="@+id/imageGif"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_below="@+id/imageGif"
+        android:id="@+id/scanbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qrscan_btnScan"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:backgroundTint="@color/darkblue"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_border"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/scanbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/color_tvbackground"
+            android:layout_margin="3dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp">
+                <TextView
+                    android:background="@color/background_tvdalam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:padding="10dp"
+                    android:text="@string/qrscan_Result"
+                    android:textColor="@color/tvdalam_color"/>
+
+                <EditText
+                    android:id="@+id/scantext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""
+                    android:autoLink="all"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:textColor="@color/tvdalam_color" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>

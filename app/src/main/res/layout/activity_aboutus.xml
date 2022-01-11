@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dalam"
+    tools:context=".Settings.about_us">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="16dp"
+        android:textColor="@color/tvdalam_color"
+        android:text="@string/app_desc"/>
+    <TextView
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_cp"
+        android:textColor="@color/tvdalam_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="12dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_mail" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:textColor="@color/tvdalam_color"
+            android:paddingTop="10dp"
+            android:textSize="16sp"
+            android:text="toolmulti3@gmail.com"/>
+    </LinearLayout>
+</LinearLayout>

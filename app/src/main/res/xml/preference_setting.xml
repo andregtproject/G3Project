@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="UI Mode"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:key="mode1_preference"
+            android:title="@string/ui_mode1"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:key="mode2_preference"
+            android:title="@string/ui_mode2"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_about"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:summary="1.0.0"
+            android:title="@string/pref_aboutVersion"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:key="about_preference"
+            android:title="@string/pref_aboutUs"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_privacy"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:key="privacy_preference"
+            android:title="@string/pref_privacyPolicy"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:key="terms_preference"
+            android:title="@string/pref_privacyTerms"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_help"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:key="help_preference"
+            android:title="@string/pref_helpContactDeveloper"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
