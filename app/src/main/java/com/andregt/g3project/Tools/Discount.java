@@ -20,8 +20,6 @@ public class Discount extends AppCompatActivity {
         setContentView(R.layout.activity_discount);
 
         this.setTitle(R.string.main_DC);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         harga = (EditText)findViewById(R.id.edit1);
         diskon = (EditText)findViewById(R.id.edit2);

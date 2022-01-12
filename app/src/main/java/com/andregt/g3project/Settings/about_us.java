@@ -14,5 +14,6 @@ public class about_us extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutus);
 
+        this.setTitle(R.string.about_us);
     }
 }

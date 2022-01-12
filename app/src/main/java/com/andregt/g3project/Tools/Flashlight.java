@@ -37,8 +37,6 @@ public class Flashlight extends AppCompatActivity {
         setContentView(R.layout.activity_flashlight);
 
         this.setTitle(R.string.main_FL);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         switchImpuler=findViewById(R.id.switchFlasher);
         toggleButton= findViewById(R.id.btnToggleLight);

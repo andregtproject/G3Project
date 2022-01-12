@@ -55,8 +55,6 @@ public class TextRecognition extends AppCompatActivity {
         setContentView(R.layout.activity_text_recognition);
 
         this.setTitle(R.string.main_TR);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         mResultEt = findViewById(R.id.resultEt);
         mPreviewIv = findViewById(R.id.imageIv);

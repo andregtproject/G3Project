@@ -35,8 +35,6 @@ public class Stopwatch extends AppCompatActivity {
         setContentView(R.layout.activity_stopwatch);
 
         this.setTitle(R.string.main_SW);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         textView = (TextView)findViewById(R.id.textView);
         start = (Button)findViewById(R.id.button);

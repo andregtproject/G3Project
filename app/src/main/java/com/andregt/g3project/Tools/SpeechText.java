@@ -28,8 +28,6 @@ public class SpeechText extends AppCompatActivity {
         setContentView(R.layout.activity_speech_text);
 
         this.setTitle(R.string.main_ST);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         mVoiceInputTv = (EditText) findViewById(R.id.txvResult);
         mSpeakBtn = (ImageButton) findViewById(R.id.btnSpeak);

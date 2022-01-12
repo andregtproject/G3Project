@@ -22,8 +22,6 @@ public class GN_CodeOption extends AppCompatActivity {
         setContentView(R.layout.activity_gncode_option);
 
         this.setTitle(R.string.main_GN);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         btnQR = findViewById(R.id.btnQR);
         btnQR.setOnClickListener(new View.OnClickListener() {

@@ -24,8 +24,6 @@ public class ScannerHelper extends AppCompatActivity {
         setContentView(R.layout.activity_q_r__scanner_helper);
 
         this.setTitle(R.string.main_BQ);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         ImageView imgGif = (ImageView) findViewById(R.id.imageGif);
         Glide.with(ScannerHelper.this)

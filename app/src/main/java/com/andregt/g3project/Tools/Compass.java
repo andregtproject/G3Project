@@ -30,12 +30,10 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
         setContentView(R.layout.activity_compass);
 
         this.setTitle(R.string.main_CP);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         compassimage = (ImageView) findViewById(R.id.compass_image);
         // TextView that will display the degree
-        DegreeTV = (TextView) findViewById(R.id.degreeTV);
+        DegreeTV = findViewById(R.id.degreeTV);
         // initialize your android device sensor capabilities
         SensorManage = (SensorManager) getSystemService(SENSOR_SERVICE);
     }

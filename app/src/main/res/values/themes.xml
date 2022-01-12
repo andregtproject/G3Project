@@ -4,7 +4,7 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/background_setting</item>
         <item name="colorPrimaryDark">@color/darkblue</item>
-        <item name="colorAccent">#FF1E1E</item>
+        <item name="colorAccent">@color/background_setting</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
         <!-- Secondary brand color. -->
 

@@ -32,8 +32,6 @@ public class CurrencyConverter extends AppCompatActivity {
         setContentView(R.layout.activity_currency_converter);
 
         this.setTitle(R.string.main_CC);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         input_uang = (EditText) findViewById(R.id.uang_input);
         rp_usd = (Button) findViewById(R.id.rpusd);

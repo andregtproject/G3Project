@@ -30,8 +30,6 @@ public class Bar_Generator extends AppCompatActivity {
         setContentView(R.layout.activity_bar__generator);
 
         this.setTitle(R.string.gc_btnBar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         editText = findViewById(R.id.editText);
         imageView = findViewById(R.id.imageView);

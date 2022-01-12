@@ -32,8 +32,6 @@ public class QR_Generator extends AppCompatActivity {
         setContentView(R.layout.activity_qr__generator);
 
         this.setTitle(R.string.gc_btnQR);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
 
         etInput = findViewById(R.id.etInput);
         btnGenerate = findViewById(R.id.btnGenerate);
