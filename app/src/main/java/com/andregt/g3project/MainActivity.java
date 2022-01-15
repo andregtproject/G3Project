@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 import android.widget.Toolbar;
 
 import androidx.appcompat.app.ActionBar;
@@ -18,8 +19,7 @@ import com.andregt.g3project.Tools.TextRecognition;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
-    Toolbar toolbar;
+    private long backpressedTime;
     ViewPager viewPager;
     Adapter adapter;
     java.util.List<Model> models;
@@ -97,24 +97,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed(){
-        new AlertDialog.Builder(this)
-                .setIcon(R.drawable.logo)
-                .setTitle(R.string.app_name)
 
-                .setMessage("Are you sure to exit?")
-                .setPositiveButton("YES", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                })
-                .setNegativeButton("NO", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                })
-                .show();
+        if (backpressedTime + 2000>System.currentTimeMillis()){
+            finishAffinity();
+            System.exit(0);
+            return;
+        } else{
+            Toast.makeText(this, "Click back to exit", Toast.LENGTH_SHORT).show();
+        }
+        backpressedTime = System.currentTimeMillis();
+
     }
 
     public void setting(View view) {

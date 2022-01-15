@@ -10,17 +10,17 @@
 
 
     <ToggleButton
-        android:layout_marginTop="100dp"
         android:id="@+id/btnToggleLight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_border"
+        android:onClick="btnToggleLight"
         android:paddingLeft="35dp"
         android:paddingRight="35dp"
-        android:backgroundTint="@color/darkblue"
         android:textColor="@color/white"
-        android:background="@drawable/btn_border"
-        android:onClick="btnToggleLight" />
+        app:backgroundTint="@color/cd_color" />
 
     <Switch
         android:id="@+id/switchFlasher"
@@ -28,7 +28,7 @@
         android:layout_width="200sp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10sp"
-        android:textColor="@color/darkblue"
+        android:textColor="@color/warning_color"
         android:text="@string/fl_strobo"
         android:onClick="switchImpulses"
         android:layout_marginBottom="44sp"

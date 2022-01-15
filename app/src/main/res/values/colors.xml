@@ -2,17 +2,17 @@
 <resources>
     <color name="colorAccent">#FF4081</color>
     <color name="color1">#BFBFBF</color>
-    <color name="color2">#F172A1</color>
-    <color name="color3">#D6CE15</color>
-    <color name="color4">#AFD275</color>
-    <color name="color5">#E27D60</color>
-    <color name="color6">#E8A87C</color>
-    <color name="color7">#C38D9E</color>
-    <color name="color8">#41B3A3</color>
-    <color name="color9">#8D8741</color>
-    <color name="color10">#DAAD86</color>
-    <color name="color11">#5CDB95</color>
-    <color name="color12">#AFD275</color>
+    <color name="color2">#FB8F81</color>
+    <color name="color3">#E8E494</color>
+    <color name="color4">#aed6dc</color>
+    <color name="color5">#ddc3a5</color>
+    <color name="color6">#a9c0a6</color>
+    <color name="color7">#C1A1EA</color>
+    <color name="color8">#e0a96d</color>
+    <color name="color9">#a8c66c</color>
+    <color name="color10">#7B98FD</color>
+    <color name="color11">#cbd18f</color>
+    <color name="color12">#efb5a3</color>
 
     <color name="colorPrimary">#656D78</color>
     <color name="colorPrimaryDark">#3C444C</color>
@@ -23,11 +23,11 @@
     <color name="cd_color">#3C444C</color>
     <color name="color_tvcd">#E6E9ED</color>
     <color name="color_tvsubtitle">#FFFFFF</color>
-    <color name="darkblue">#950101</color>
+    <color name="darkblue">#9E0000</color>
     <color name="three_dots">#000000</color>
     <color name="color_imgCp">#000000</color>
     <color name="tv_subtitle">#757575</color>
-    <color name="background_setting">#AEFF0000</color>
+    <color name="background_setting">#FF0000</color>
 
     //color pada all activity tools
     <color name="background_dalam">#FAFAFA</color>
@@ -36,5 +36,7 @@
     <color name="color_tvbackground">#ededed</color>
     <color name="btnColor">#ba181b</color>
     <color name="white">#FFFFFF</color>
+    <color name="timeSW_color">#009688</color>
+    <color name="warning_color">#D64C15</color>
 
 </resources>

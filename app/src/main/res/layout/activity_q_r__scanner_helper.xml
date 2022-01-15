@@ -24,7 +24,7 @@
         android:text="@string/qrscan_btnScan"
         android:paddingLeft="35dp"
         android:paddingRight="35dp"
-        android:backgroundTint="@color/darkblue"
+        app:backgroundTint="@color/cd_color"
         android:textColor="@color/white"
         android:background="@drawable/btn_border"
         android:layout_centerHorizontal="true" />

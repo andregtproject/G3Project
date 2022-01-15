@@ -55,7 +55,7 @@
         android:layout_below="@+id/cdEditText"
         android:paddingLeft="35dp"
         android:paddingRight="35dp"
-        android:backgroundTint="@color/darkblue"
+        app:backgroundTint="@color/btnColor"
         android:textColor="@color/white"
         android:background="@drawable/btn_border"
         />

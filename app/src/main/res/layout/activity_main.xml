@@ -10,49 +10,47 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/mytoolbar"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="80dp"
         android:background="@color/darkblue">
-
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-
+            android:layout_marginBottom="20dp"
             android:src="@drawable/logo" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="20dp"
             >
 
             <TextView
+                android:layout_marginTop="18dp"
                 android:id="@+id/txtjudul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/bubblegum_sans"
                 android:text="@string/app_name"
                 android:textColor="#FFFFFF"
-                android:textSize="15sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/txtjudul"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:text="@string/desc_name"
-                android:textSize="11sp"
-                android:textColor="#989898" />
-
+                android:textSize="12sp"
+                android:textColor="#ffffff" />
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_vert"
+                android:background="@color/background_setting"
+                android:onClick="setting" />
         </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
-
-    <ImageView
-        android:layout_width="40dp"
-        android:layout_height="70dp"
-        android:src="@drawable/ic_vert"
-        android:background="@color/background_setting"
-        android:onClick="setting"
-        android:layout_alignParentRight="true" />
 
     <androidx.viewpager.widget.ViewPager
         android:layout_below="@+id/mytoolbar"

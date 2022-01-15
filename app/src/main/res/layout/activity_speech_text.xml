@@ -58,7 +58,8 @@
             android:background="@null"
             android:padding="16dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/mic" />
+            android:src="@drawable/mic"
+            app:tint="@color/cd_color"/>
 
         <TextView
             android:id="@+id/textView"
@@ -66,6 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/btnSpeak"
             android:layout_margin="10dp"
+            android:textSize="11dp"
+            android:textColor="@color/warning_color"
             android:text="Tap on mic to start" />
     </LinearLayout>
 </RelativeLayout>

@@ -85,7 +85,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:background="@drawable/btn_border"
-            app:backgroundTint="@color/btnColor"
+            app:backgroundTint="@color/cd_color"
             android:onClick="toUSD"
             android:paddingLeft="35dp"
             android:paddingRight="35dp"
@@ -104,8 +104,8 @@
             android:text="USD > RP"
             android:textColor="@color/white"
             android:layout_marginLeft="15dp"
-            app:backgroundTint="@color/btnColor"/>
-    </LinearLayout>
+            app:backgroundTint="@color/cd_color"/>dxz
+    </LinearLayout>x
 
     <LinearLayout
         android:layout_marginTop="12dp"
@@ -125,7 +125,7 @@
             android:background="@drawable/btn_border"
             android:onClick="toEuro"
             android:layout_marginRight="15dp"
-            app:backgroundTint="@color/btnColor"/>
+            app:backgroundTint="@color/cd_color"/>
         <Button
             android:id="@+id/eurorp"
             android:layout_width="150dp"
@@ -136,7 +136,7 @@
             android:paddingRight="35dp"
             android:textColor="@color/white"
             android:background="@drawable/btn_border"
-            app:backgroundTint="@color/btnColor"
+            app:backgroundTint="@color/cd_color"
             android:onClick="toRP_euro"
             android:layout_marginLeft="15dp" />
 
@@ -154,7 +154,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:background="@drawable/btn_border"
-            app:backgroundTint="@color/btnColor"
+            app:backgroundTint="@color/cd_color"
             android:onClick="toYEN"
             android:paddingLeft="35dp"
             android:paddingRight="35dp"
@@ -167,7 +167,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/btn_border"
-            app:backgroundTint="@color/btnColor"
+            app:backgroundTint="@color/cd_color"
             android:onClick="toRP_yen"
             android:paddingLeft="35dp"
             android:paddingRight="35dp"

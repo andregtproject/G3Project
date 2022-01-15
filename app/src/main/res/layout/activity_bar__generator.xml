@@ -58,7 +58,7 @@
         android:paddingRight="35dp"
         android:text="@string/bg_button"
         android:textColor="#FFFFFF"
-        app:backgroundTint="@color/btnColor" />
+        app:backgroundTint="@color/cd_color" />
 
     <ImageView
         android:layout_marginTop="50dp"
@@ -82,7 +82,7 @@
         android:paddingRight="35dp"
         android:text="@string/bg_download"
         android:textColor="#FFFFFF"
-        app:backgroundTint="@color/btnColor"
+        app:backgroundTint="@color/cd_color"
         app:iconTint="#FFFFFF" />
 
 

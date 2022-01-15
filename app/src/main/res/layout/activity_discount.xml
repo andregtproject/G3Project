@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="35dp"
         android:paddingRight="35dp"
-        app:backgroundTint="@color/btnColor"
+        app:backgroundTint="@color/cd_color"
         android:textColor="@color/white"
         android:background="@drawable/btn_border"
         android:layout_centerHorizontal="true"

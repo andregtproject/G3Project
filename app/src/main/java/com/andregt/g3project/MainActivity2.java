@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.andregt.g3project.Helper.GN_CodeOption;
 import com.andregt.g3project.Helper.ScannerHelper;
@@ -22,6 +23,8 @@ import com.andregt.g3project.Tools.Stopwatch;
 import com.andregt.g3project.Tools.TextRecognition;
 
 public class MainActivity2 extends AppCompatActivity implements View.OnClickListener {
+
+    private long backpressedTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,24 +109,16 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
     }
     @Override
     public void onBackPressed(){
-        new AlertDialog.Builder(this)
-                .setIcon(R.drawable.logo)
-                .setTitle(R.string.app_name)
 
-                .setMessage("Are you sure to exit?")
-                .setPositiveButton("YES", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                })
-                .setNegativeButton("NO", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                })
-                .show();
+        if (backpressedTime + 2000>System.currentTimeMillis()){
+            finishAffinity();
+            System.exit(0);
+            return;
+        } else{
+            Toast.makeText(this, "Click back to exit", Toast.LENGTH_SHORT).show();
+        }
+        backpressedTime = System.currentTimeMillis();
+
     }
 
     public void setting(View view) {

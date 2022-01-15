@@ -17,6 +17,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnSpeak"
+                android:layout_margin="10dp"
+                android:textSize="11dp"
+                android:textColor="@color/warning_color"
+                android:text="!! Tap on picture symbol on top bar to start" />
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
