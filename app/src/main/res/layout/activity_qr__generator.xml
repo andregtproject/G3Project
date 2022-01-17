@@ -55,7 +55,7 @@
         android:layout_below="@+id/cdEditText"
         android:paddingLeft="35dp"
         android:paddingRight="35dp"
-        app:backgroundTint="@color/btnColor"
+        app:backgroundTint="@color/cd_color"
         android:textColor="@color/white"
         android:background="@drawable/btn_border"
         />
@@ -77,12 +77,12 @@
         android:layout_below="@+id/ivOutput"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:background="@drawable/btn_border"
         android:paddingLeft="35dp"
         android:paddingRight="35dp"
-        android:backgroundTint="@color/darkblue"
+        android:text="@string/bg_download"
         android:textColor="@color/white"
-        android:background="@drawable/btn_border"
-        android:text="@string/bg_download" />
+        app:backgroundTint="@color/cd_color" />
 
 
 </RelativeLayout>

@@ -28,7 +28,7 @@
         android:layout_width="200sp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10sp"
-        android:textColor="@color/warning_color"
+        android:textColor="@color/cd_color"
         android:text="@string/fl_strobo"
         android:onClick="switchImpulses"
         android:layout_marginBottom="44sp"
