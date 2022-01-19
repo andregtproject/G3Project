@@ -32,16 +32,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         models = new ArrayList<>();
-        models.add(new Model(R.drawable.photo_scanner, "Text Recognition", "Convert your images into text, with these tools you don't have to bother typing"));
-        models.add(new Model(R.drawable.podcast, "Speech Text", "Scan your barcode or QRcode"));
-        models.add(new Model(R.drawable.code_scanner, "Code Scanner", "Scan your barcode or QRcode"));
-        models.add(new Model(R.drawable.code_maker, "Code Generetor", "Build your barcode or QRcode"));
-        models.add(new Model(R.drawable.stopwatch, "Stopwatch", "Measure the length of your activity"));
-        models.add(new Model(R.drawable.compas, "Compass", "Compass is a navigational tool to determine the cardinal directions"));
-        models.add(new Model(R.drawable.flashlight, "Flashlight", "Light up the light around you"));
-        models.add(new Model(R.drawable.money_converter, "Money Converter", "Convert the value of your currency into Indonesian rupiah currency"));
-        models.add(new Model(R.drawable.discount, "Discount Counter", "Calculate the price of your item after deducting the discount"));
-        models.add(new Model(R.drawable.body_indication, "Index Body", "Body index tool is a digital tool that is used to check the stability of body mass"));
+        models.add(new Model(R.drawable.photo_scanner, R.string.main_TR, R.string.main_descTR));
+        models.add(new Model(R.drawable.podcast, R.string.main_ST, R.string.main_descST));
+        models.add(new Model(R.drawable.code_scanner, R.string.main_BQ, R.string.main_descBQ));
+        models.add(new Model(R.drawable.code_maker,  R.string.main_GN, R.string.main_descGN));
+        models.add(new Model(R.drawable.stopwatch, R.string.main_SW, R.string.main_descSW));
+        models.add(new Model(R.drawable.compas, R.string.main_CP, R.string.main_descCP));
+        models.add(new Model(R.drawable.flashlight, R.string.main_FL, R.string.main_descFL));
+        models.add(new Model(R.drawable.money_converter, R.string.main_CC, R.string.main_descCC));
+        models.add(new Model(R.drawable.discount, R.string.main_DC, R.string.main_descDC));
+        models.add(new Model(R.drawable.body_indication, R.string.main_IB, R.string.main_descIB));
 
         adapter = new Adapter(models, this);
 

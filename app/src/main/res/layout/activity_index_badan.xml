@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:background="@color/background_tvdalam"
-                android:text="Body Mass (Kg) :"
+                android:text="@string/body_mass"
                 android:textColor="@color/tvdalam_color"
                 android:textSize="18sp" />
             <EditText
@@ -42,7 +42,7 @@
                 android:textSize="12sp"
                 android:maxEms="3"
                 android:inputType="number"
-                android:hint="input weight"/>
+                android:hint="@string/input_body"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:background="@color/background_tvdalam"
-                android:text="Height (Cm) :"
+                android:text="@string/height"
                 android:textColor="@color/tvdalam_color"
                 android:textSize="18sp"/>
 
@@ -83,7 +83,7 @@
                 android:padding="10dp"
                 android:textSize="12sp"
                 android:inputType="number"
-                android:hint="Input height"/>
+                android:hint="@string/input_height"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -123,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:padding="10dp"
-                android:text="Result :"
+                android:text="@string/result"
                 android:textColor="@color/tvdalam_color"/>
 
             <TextView

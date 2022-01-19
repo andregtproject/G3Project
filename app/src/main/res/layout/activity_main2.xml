@@ -20,11 +20,11 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@color/darkblue">
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginBottom="20dp"
-                android:src="@drawable/logo" />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/logo" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
                     android:fontFamily="@font/bubblegum_sans"
                     android:text="@string/app_name"
                     android:textColor="#FFFFFF"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -73,9 +73,9 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:id="@+id/cdTR"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginRight="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp"
                >
@@ -117,9 +117,9 @@
                 android:id="@+id/cdST"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginLeft="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
@@ -172,9 +172,9 @@
                 android:id="@+id/cdBQ"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginRight="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
@@ -215,9 +215,9 @@
                 android:id="@+id/cdGN"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginLeft="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
@@ -272,9 +272,9 @@
                 android:id="@+id/cdIB"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginRight="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
@@ -316,9 +316,9 @@
                 android:id="@+id/cdSW"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginLeft="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
@@ -370,9 +370,9 @@
                 android:id="@+id/cdCP"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginRight="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
@@ -412,9 +412,9 @@
                 android:id="@+id/cdFL"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginLeft="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
@@ -467,9 +467,9 @@
                 android:id="@+id/cdCC"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginRight="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
@@ -510,9 +510,9 @@
                 android:id="@+id/cdDC"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
-                android:layout_width="150dp"
-                android:layout_height="185dp"
-                android:layout_marginLeft="15dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
                 android:backgroundTint="@color/cd_color"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
