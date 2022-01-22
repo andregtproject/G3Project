@@ -16,13 +16,6 @@
     <string name="cp_tvHeading">0</string>
     <string name="cpHeading">Degree:</string>
 
-    // activity cryptography
-    <string name="cg_plain_text">Plain Text</string>
-    <string name="cg_chiper_text">Password</string>
-    <string name="cg_btnEncryp">Encryption</string>
-    <string name="cg_btnDescryption">Descryption</string>
-    <string name="cg_btnClear">Clear</string>
-
     // activity currency converter
     <string name="cc_tvConvert">Convert</string>
     <string name="cc_tvResult">Result</string>
@@ -52,7 +45,7 @@
     // activity main
     <string name="desc_name">Our tools can help your daily task</string>
     <string name="main_TR">Text Recognition</string>
-    <string name="main_descTR">Convert your images into text, with these tools you don\'t have to bother typingt</string>
+    <string name="main_descTR">Convert your images into text, with these tools you don\'t have to bother typing</string>
     <string name="main_ST">Speech Text</string>
     <string name="main_descST">Record your speech to text</string>
     <string name="main_BQ">Code Scanner</string>
@@ -168,7 +161,7 @@ By downloading or using the app, these terms will automatically apply to you –
 
 Andre Gunawan Tri Atmaja, Fahri Muhammad Daelami, Eva Alivatinnisa and Daniel Alexander Pakpahan is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.
 
-The AG Tools app stores and processes personal data that you have provided to us, in order to provide my Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the AG Tools app won’t work properly or at all.
+The Multi Tools app stores and processes personal data that you have provided to us, in order to provide my Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the AG Tools app won’t work properly or at all.
 
 The app does use third party services that declare their own Terms and Conditions.
 

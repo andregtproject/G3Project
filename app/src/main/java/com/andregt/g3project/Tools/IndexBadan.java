@@ -22,6 +22,8 @@ public class IndexBadan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_index_badan);
 
+        this.setTitle(R.string.main_IB);
+
         mEtBerat = findViewById(R.id.etBerat);
         mEtTinggi = findViewById(R.id.etTinggi);
         mBtnHitung = findViewById(R.id.btnHitung);

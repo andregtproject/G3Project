@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">Multi Tools</string>
+
+    // activity about
+    <string name="app_desc" translatable="true">Multi Tools adalah sebuah software yang dibuat untuk perangkat android, di dalam aplikasi ini terdapat beberapa macam tools digital yang bertujuan untuk membantu tugas-tugas manusia dalam menyelesaikan tugasnya.</string>
+    <string name="about_cp">Contact Person</string>
+
+    // activity bar generator
+    <string name="bg_tvInputText">Masukkan Teks</string>
+    <string name="bg_editText">Masukkan teks disini</string>
+    <string name="bg_button">Buat</string>
+    <string name="bg_download">Unduh</string>
+
+    // activity compass
+    <string name="cp_tvHeading">0</string>
+    <string name="cpHeading">Derajat:</string>
+
+    // activity currency converter
+    <string name="cc_tvConvert">Conversi</string>
+    <string name="cc_tvResult">Hasil</string>
+
+    // activity discount
+    <string name="discount">Diskon (%)</string>
+    <string name="input_discount">Masukkan diskon</string>
+    <string name="dc_tvPrice">Harga (Rp)</string>
+    <string name="dc_etInput">Masukkan harga</string>
+    <string name="dc_btnCalculate">Hitung</string>
+    <string name="dc_Total">Total</string>
+
+    // activity flashlight
+    <string name="fl_strobo">Strobo / berkedip</string>
+    <string name="fl_slideHigh">Slider tinggi</string>
+    <string name="fl_slightLow">Slider rendah</string>
+
+    // activity gncode option
+    <string name="gc_tvChoosen">Pilih genarator:</string>
+    <string name="gc_btnQR">QR Generator</string>
+    <string name="gc_btnBar">Bar Generator</string>
+
+    // activity help
+    <string name="help_desc">Jika Anda menemukan bug atau masalah di aplikasi, Anda dapat memberi tahu pengembang dengan mengirimkan pesan ke email berikut.</string>
+    <string name="help_btnEmail">Klik Disini</string>
+
+    // activity main
+    <string name="desc_name">Alat kami dapat membantu tugas harian Anda</string>
+    <string name="main_TR">Text Recognition</string>
+    <string name="main_descTR">Ubah gambar Anda menjadi teks, dengan alat ini Anda tidak perlu repot mengetik</string>
+    <string name="main_ST">Speech Text</string>
+    <string name="main_descST">Rekam suara Anda ke dalam teks</string>
+    <string name="main_BQ">Code Scanner</string>
+    <string name="main_descBQ">Pindai kode batang atau kode QR Anda</string>
+    <string name="main_GN">Code Generator</string>
+    <string name="main_descGN">Buat kode batang atau kode QR Anda</string>
+    <string name="main_SW">Stopwatch</string>
+    <string name="main_descSW">Ukur lamanya aktivitas Anda</string>
+    <string name="main_CP">Compass</string>
+    <string name="main_descCP">Alat navigasi untuk menentukan arah mata angin</string>
+    <string name="main_FL">Flashlight</string>
+    <string name="main_descFL">Nyalakan cahaya di sekitar Anda</string>
+    <string name="main_CC">Money Converter</string>
+    <string name="main_descCC">Ubah nilai mata uang Anda menjadi mata uang rupiah Indonesia</string>
+    <string name="main_DC">Discount Calculation</string>
+    <string name="main_descDC">Hitung harga barang Anda setelah dikurangi diskon</string>
+    <string name="main_IB">Index Body</string>
+    <string name="main_descIB">alat digital yang digunakan untuk memeriksa stabilitas massa tubuh</string>
+
+    // activity privacy policy
+    <string name="pp_tvPrivacy">Privacy Policy</string>
+    <string name="pp_descPrivacy" translatable="true">Privacy Policy
+Andre Gunawan Tri Atmaja, Fahri Muhammad Daelami, Eva Alivatinnisa dan Daniel Alexander Pakpahan membangun aplikasi Multi tools sebagai aplikasi Gratis. LAYANAN ini disediakan oleh mereka tanpa biaya dan dimaksudkan untuk digunakan apa adanya.
+
+Halaman ini digunakan untuk memberi tahu pengunjung mengenai kebijakan saya dengan pengumpulan, penggunaan, dan pengungkapan Informasi Pribadi jika ada yang memutuskan untuk menggunakan Layanan saya.
+
+Jika Anda memilih untuk menggunakan Layanan saya, maka Anda menyetujui pengumpulan dan penggunaan informasi sehubungan dengan kebijakan ini. Informasi Pribadi yang saya kumpulkan digunakan untuk menyediakan dan meningkatkan Layanan. Saya tidak akan menggunakan atau membagikan informasi Anda dengan siapa pun kecuali sebagaimana dijelaskan dalam Kebijakan Privasi ini.
+
+Istilah yang digunakan dalam Kebijakan Privasi ini memiliki arti yang sama seperti dalam Syarat dan Ketentuan kami, yang dapat diakses di Multi Tools kecuali ditentukan lain dalam Kebijakan Privasi ini.
+&#160;
+Pengumpulan dan Penggunaan Informasi
+
+Untuk pengalaman yang lebih baik, saat menggunakan Layanan kami, saya mungkin meminta Anda untuk memberikan kami informasi pengenal pribadi tertentu. Informasi yang saya minta akan disimpan di perangkat Anda dan tidak saya kumpulkan dengan cara apa pun.
+
+Aplikasi ini menggunakan layanan pihak ketiga yang dapat mengumpulkan informasi yang digunakan untuk mengidentifikasi Anda.
+
+Tautan ke kebijakan privasi penyedia layanan pihak ketiga yang digunakan oleh aplikasi
+        &#160;
+
+Layanan Google Play
+Data Log
+
+Saya ingin memberi tahu Anda bahwa setiap kali Anda menggunakan Layanan saya, jika terjadi kesalahan dalam aplikasi, saya mengumpulkan data dan informasi (melalui produk pihak ketiga) di ponsel Anda yang disebut Data Log. Data Log ini dapat mencakup informasi seperti alamat Protokol Internet (“IP”) perangkat Anda, nama perangkat, versi sistem operasi, konfigurasi aplikasi saat menggunakan Layanan saya, waktu dan tanggal penggunaan Layanan oleh Anda, dan statistik lainnya .
+&#160;
+Kue
+
+Cookie adalah file dengan sejumlah kecil data yang biasanya digunakan sebagai pengidentifikasi unik anonim. Ini dikirim ke browser Anda dari situs web yang Anda kunjungi dan disimpan di memori internal perangkat Anda.
+
+Layanan ini tidak menggunakan “cookie” ini secara eksplisit. Namun, aplikasi dapat menggunakan kode dan perpustakaan pihak ketiga yang menggunakan "cookies" untuk mengumpulkan informasi dan meningkatkan layanan mereka. Anda memiliki pilihan untuk menerima atau menolak cookie ini dan mengetahui kapan cookie dikirim ke perangkat Anda. Jika Anda memilih untuk menolak cookie kami, Anda mungkin tidak dapat menggunakan beberapa bagian dari Layanan ini.
+&#160;
+Penyedia jasa
+
+Saya dapat mempekerjakan perusahaan dan individu pihak ketiga karena alasan berikut:
+
+Untuk memfasilitasi Layanan kami;
+Untuk menyediakan Layanan atas nama kami;
+Untuk melakukan layanan terkait Layanan; atau
+Untuk membantu kami dalam menganalisis bagaimana Layanan kami digunakan.
+Saya ingin memberi tahu pengguna Layanan ini bahwa pihak ketiga ini memiliki akses ke Informasi Pribadi Anda. Alasannya adalah untuk melakukan tugas yang diberikan kepada mereka atas nama kita. Namun, mereka berkewajiban untuk tidak mengungkapkan atau menggunakan informasi tersebut untuk tujuan lain.
+
+        &#160;
+Keamanan
+
+Saya menghargai kepercayaan Anda dalam memberikan Informasi Pribadi Anda kepada kami, oleh karena itu kami berusaha untuk menggunakan cara yang dapat diterima secara komersial untuk melindunginya. Tetapi ingat bahwa tidak ada metode transmisi melalui internet, atau metode penyimpanan elektronik yang 100% aman dan andal, dan saya tidak dapat menjamin keamanan mutlaknya.
+
+        &#160;
+Tautan ke Situs Lain
+
+Layanan ini mungkin berisi tautan ke situs lain. Jika Anda mengklik tautan pihak ketiga, Anda akan diarahkan ke situs itu. Perhatikan bahwa situs eksternal ini tidak dioperasikan oleh saya. Oleh karena itu, saya sangat menyarankan Anda untuk meninjau Kebijakan Privasi situs web ini. Saya tidak memiliki kendali atas dan tidak bertanggung jawab atas konten, kebijakan privasi, atau praktik dari situs atau layanan pihak ketiga mana pun.
+        &#160;
+
+Privasi Anak-anak
+
+Layanan ini tidak ditujukan kepada siapa pun yang berusia di bawah 13 tahun. Saya tidak dengan sengaja mengumpulkan informasi pengenal pribadi dari anak-anak di bawah 13 tahun. Jika saya menemukan bahwa seorang anak di bawah 13 tahun telah memberi saya informasi pribadi, saya segera menghapusnya dari server kami. Jika Anda adalah orang tua atau wali dan Anda mengetahui bahwa anak Anda telah memberikan informasi pribadi kepada kami, silakan hubungi saya sehingga saya dapat melakukan tindakan yang diperlukan.
+        &#160;
+
+Perubahan pada Kebijakan Privasi Ini
+
+Saya dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Oleh karena itu, Anda disarankan untuk meninjau halaman ini secara berkala untuk setiap perubahan. Saya akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini.
+
+Kebijakan ini berlaku mulai 2021-07-07
+
+        &#160;
+Hubungi kami
+
+Jika Anda memiliki pertanyaan atau saran tentang Kebijakan Privasi saya, jangan ragu untuk menghubungi saya di toolmulti3@gmail.com.
+Halaman Privacy policy ini dibuat menggunakan privacypolicytemplate.net dan dimodifikasi/dibuat dengan App Privacy Policy Generator</string>
+
+    // activity qr scanner helper
+    <string name="qrscan_btnScan">Pindai Kode</string>
+    <string name="qrscan_Result">Hasil</string>
+
+    // activity qr generator
+    <string name="qr_btnGenerate">QR code generator</string>
+
+    // activity speech text
+    <string name="st_tvResult">Hasil</string>
+    <string name="ST_act">Ucapkan teks Anda</string>
+
+    // activity stopwatch
+    <string name="sw_timer">Timer</string>
+    <string name="sw_btnStart">Mulai</string>
+    <string name="sw_btnPause">Berhenti</string>
+    <string name="sw_btnReset">Hapus</string>
+    <string name="sw_btnSaveLap">Simpan Putaran</string>
+
+    // activity terms condition
+    <string name="terms_title"><![CDATA[Terms & Conditions]]></string>
+    <string name="termsDesc" translatable="true">Terms &amp; Conditions
+Dengan mengunduh atau menggunakan aplikasi, persyaratan ini akan berlaku secara otomatis untuk Anda – karena itu Anda harus memastikan bahwa Anda membacanya dengan cermat sebelum menggunakan aplikasi. Anda tidak diizinkan untuk menyalin, atau memodifikasi aplikasi, bagian mana pun dari aplikasi, atau merek dagang kami dengan cara apa pun. Anda tidak boleh mencoba mengekstrak kode sumber aplikasi, dan Anda juga tidak boleh mencoba menerjemahkan aplikasi ke bahasa lain, atau membuat versi turunan. Aplikasi itu sendiri, dan semua merek dagang, hak cipta, hak basis data, dan hak kekayaan intelektual lainnya yang terkait dengannya, masih milik Andre Gunawan Tri Atmaja.
+
+Andre Gunawan Tri Atmaja, Fahri Muhammad Daelami, Eva Alivatinnisa, dan Daniel Alexander Pakpahan berkomitmen untuk memastikan bahwa aplikasi ini berguna dan seefisien mungkin. Untuk alasan itu, kami berhak untuk membuat perubahan pada aplikasi atau membebankan biaya untuk layanannya, kapan saja dan untuk alasan apa pun. Kami tidak akan pernah menagih Anda untuk aplikasi atau layanannya tanpa menjelaskan dengan jelas kepada Anda apa yang Anda bayar.
+
+Aplikasi Multi Tools menyimpan dan memproses data pribadi yang telah Anda berikan kepada kami, untuk menyediakan Layanan saya. Anda bertanggung jawab untuk menjaga keamanan ponsel dan akses ke aplikasi. Oleh karena itu, kami menyarankan Anda untuk tidak melakukan jailbreak atau root pada ponsel Anda, yang merupakan proses menghilangkan batasan dan batasan perangkat lunak yang diberlakukan oleh sistem operasi resmi perangkat Anda. Itu bisa membuat ponsel Anda rentan terhadap malware/virus/program jahat, membahayakan fitur keamanan ponsel Anda dan itu bisa berarti bahwa aplikasi AG Tools tidak akan berfungsi dengan baik atau tidak berfungsi sama sekali.
+
+Aplikasi ini menggunakan layanan pihak ketiga yang menyatakan Syarat dan Ketentuan mereka sendiri.
+
+Tautan ke Syarat dan Ketentuan penyedia layanan pihak ketiga yang digunakan oleh aplikasi
+
+Layanan Google Play
+Perlu Anda ketahui bahwa ada hal-hal tertentu yang tidak menjadi tanggung jawab Andre Gunawan Tri Atmaja. Fungsi aplikasi tertentu akan mengharuskan aplikasi memiliki koneksi internet aktif. Koneksi dapat berupa Wi-Fi, atau disediakan oleh penyedia jaringan seluler Anda, tetapi Andre Gunawan Tri Atmaja, Fahri Muhammad Daelami, Eva Alivatinnisa, dan Daniel Alexander Pakpahan tidak dapat bertanggung jawab atas aplikasi yang tidak berfungsi secara penuh jika Anda tidak memiliki akses ke Wi-Fi, dan Anda tidak memiliki sisa kuota.
+
+Jika Anda menggunakan aplikasi di luar area dengan Wi-Fi, Anda harus ingat bahwa persyaratan perjanjian Anda dengan penyedia jaringan seluler Anda akan tetap berlaku. Akibatnya, Anda mungkin dikenakan biaya oleh penyedia seluler Anda untuk biaya data selama koneksi saat mengakses aplikasi, atau biaya pihak ketiga lainnya. Dalam menggunakan aplikasi, Anda menerima tanggung jawab atas biaya tersebut, termasuk biaya data roaming jika Anda menggunakan aplikasi di luar wilayah asal Anda (yaitu wilayah atau negara) tanpa menonaktifkan roaming data. Jika Anda bukan pembayar tagihan untuk perangkat tempat Anda menggunakan aplikasi, perlu diketahui bahwa kami berasumsi bahwa Anda telah menerima izin dari pembayar tagihan untuk menggunakan aplikasi.
+
+Sejalan dengan itu, Andre Gunawan Tri Atmaja, Fahri Muhammad Daelami, Eva Alivatinnisa dan Daniel Alexander Pakpahan tidak dapat selalu bertanggung jawab atas cara Anda menggunakan aplikasi, yaitu Anda harus memastikan perangkat Anda tetap terisi daya – jika baterai habis dan Anda tidak dapat mengaktifkannya untuk memanfaatkan Layanan, Andre Gunawan Tri Atmaja tidak dapat bertanggung jawab.
+Sehubungan dengan tanggung jawab mereka atas penggunaan Anda atas aplikasi, ketika Anda menggunakan aplikasi, penting untuk diingat bahwa meskipun kami berusaha untuk memastikan bahwa itu diperbarui dan benar setiap saat, kami mengandalkan pihak ketiga untuk menyediakan informasi kepada kami sehingga kami dapat menyediakannya untuk Anda. Andre Gunawan Tri Atmaja, Fahri Muhammad Daelami, Eva Alivatinnisa, dan Daniel Alexander Pakpahan tidak bertanggung jawab atas kerugian apa pun, langsung atau tidak langsung, yang Anda alami sebagai akibat dari mengandalkan sepenuhnya fungsi aplikasi ini.
+
+Pada titik tertentu, kami mungkin ingin memperbarui aplikasi. Aplikasi saat ini tersedia di Android – persyaratan untuk sistem (dan untuk sistem tambahan apa pun yang kami putuskan untuk memperpanjang ketersediaan aplikasi) dapat berubah, dan Anda harus mengunduh pembaruan jika ingin tetap menggunakan aplikasi. Andre Gunawan Tri Atmaja tidak berjanji akan selalu memperbarui aplikasi sehingga relevan dengan Anda dan/atau bekerja dengan versi Android yang telah Anda instal di perangkat Anda. Namun, Anda berjanji untuk selalu menerima pembaruan aplikasi saat ditawarkan kepada Anda, Kami mungkin juga ingin berhenti menyediakan aplikasi, dan dapat menghentikan penggunaannya kapan saja tanpa memberikan pemberitahuan penghentian kepada Anda. Kecuali jika kami memberi tahu Anda sebaliknya, setelah penghentian apa pun, (a) hak dan lisensi yang diberikan kepada Anda dalam persyaratan ini akan berakhir; (b) Anda harus berhenti menggunakan aplikasi, dan (jika perlu) menghapusnya dari perangkat Anda.
+
+Perubahan Syarat dan Ketentuan Ini
+
+Saya dapat memperbarui Syarat dan Ketentuan kami dari waktu ke waktu. Oleh karena itu, Anda disarankan untuk meninjau halaman ini secara berkala untuk setiap perubahan. Saya akan memberi tahu Anda tentang perubahan apa pun dengan memposting Syarat dan Ketentuan baru di halaman ini.
+
+Syarat dan ketentuan ini berlaku mulai 2021-07-07
+
+Hubungi kami
+
+Jika Anda memiliki pertanyaan atau saran tentang Syarat dan Ketentuan saya, jangan ragu untuk menghubungi saya di toolmulti3@gmail.com.
+
+Halaman Terms and Conditions ini dibuat menggunakan App Privacy Policy Generator</string>
+
+    // activity text recognition
+    <string name="tr_tvResult">Hasil</string>
+    <string name="tr_tvImagePreview">Pratinjau Gambar</string>
+    <string name="menu_mainImageTitle">Text Recognition</string>
+
+
+    // preference_setting
+    <string name="pref_about">Tentang</string>
+    <string name="pref_aboutVersion">Versi</string>
+    <string name="pref_aboutUs">Tentang</string>
+    <string name="pref_privacy">Privacy</string>
+    <string name="pref_privacyPolicy">Privacy Policy</string>
+    <string name="pref_privacyTerms">Terms &amp; Conditions</string>
+    <string name="pref_help">Bantuan</string>
+    <string name="pref_helpContactDeveloper">Kontak Pengembang</string>
+    <string name="about_us">Tentang Kami</string>
+
+    // ui mode
+    <string name="ui_mode1">Mode Geser</string>
+    <string name="ui_mode2">Mode Scroll</string>
+
+    // ibm_activity
+    <string name="body_mass">Massa Tubuh(Kg) :</string>
+    <string name="input_body">Masukkan berat badan</string>
+    <string name="height">Tinggi (Cm) :</string>
+    <string name="input_height">Masukkan tinggi badan</string>
+    <string name="result">Hasil</string>
+
+</resources>

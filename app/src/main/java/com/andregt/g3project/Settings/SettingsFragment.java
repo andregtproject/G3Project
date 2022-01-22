@@ -1,5 +1,7 @@
 package com.andregt.g3project.Settings;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -73,4 +75,5 @@ public class SettingsFragment extends PreferenceFragmentCompat {
             }
         });
     }
+
 }

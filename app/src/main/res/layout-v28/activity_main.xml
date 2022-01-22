@@ -12,44 +12,45 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@color/darkblue">
-
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="32dp"
             android:src="@drawable/logo" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="20dp"
+            >
 
             <TextView
+                android:layout_marginTop="18dp"
                 android:id="@+id/txtjudul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/bubblegum_sans"
                 android:text="@string/app_name"
                 android:textColor="#FFFFFF"
-                android:textSize="25sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/txtjudul"
                 android:layout_marginTop="3dp"
-                android:text="This tools can help your daily task"
-                android:textColor="#989898" />
-
+                android:text="@string/desc_name"
+                android:textSize="12sp"
+                android:textColor="@android:color/darker_gray" />
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_vert"
+                android:background="@color/background_setting"
+                android:onClick="setting" />
         </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
-
-    <ImageView
-        android:layout_width="40dp"
-        android:layout_height="80dp"
-        android:src="@drawable/ic_vert"
-        android:background="@color/background_setting"
-        android:onClick="setting"
-        android:layout_alignParentRight="true" />
 
     <androidx.viewpager.widget.ViewPager
         android:foregroundGravity="center"

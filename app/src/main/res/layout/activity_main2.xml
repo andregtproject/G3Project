@@ -40,7 +40,7 @@
                     android:fontFamily="@font/bubblegum_sans"
                     android:text="@string/app_name"
                     android:textColor="#FFFFFF"
-                    android:textSize="15sp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
                     android:layout_marginTop="3dp"
                     android:text="@string/desc_name"
                     android:textSize="12sp"
-                    android:textColor="#ffffff" />
+                    android:textColor="@android:color/darker_gray" />
                 <ImageView
                     android:layout_width="35dp"
                     android:layout_height="80dp"
@@ -61,7 +61,7 @@
     </androidx.appcompat.widget.Toolbar>
 
         <LinearLayout
-            android:paddingTop="45dp"
+            android:paddingTop="55dp"
             android:paddingBottom="12dp"
             android:clipToPadding="false"
             android:gravity="center"
