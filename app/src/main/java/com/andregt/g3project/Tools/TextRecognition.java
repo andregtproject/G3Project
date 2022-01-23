@@ -59,13 +59,7 @@ public class TextRecognition extends AppCompatActivity {
         setContentView(R.layout.activity_text_recognition);
 
         this.setTitle(R.string.main_TR);
-      /*  ActionBar actionBar;
-        actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#AEFF0000"));
-        actionBar.setBackgroundDrawable(colorDrawable);*/
 
-    /*    Objects.requireNonNull(getSupportActionBar()).setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.background_setting)));
-*/
         mResultEt = findViewById(R.id.resultEt);
         mPreviewIv = findViewById(R.id.imageIv);
 
@@ -94,11 +88,11 @@ public class TextRecognition extends AppCompatActivity {
 
     private void showImageImportDialog() {
 
-        String[] items = {" Camera", " Gallery"};
+        String[] items = {getString(R.string.camera_slct), getString(R.string.gallery_slct)};
 
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);
 
-        dialog.setTitle("Select Image");
+        dialog.setTitle(R.string.choose_img);
         dialog.setItems(items, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

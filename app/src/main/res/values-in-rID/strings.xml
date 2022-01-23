@@ -143,6 +143,10 @@ Halaman Privacy policy ini dibuat menggunakan privacypolicytemplate.net dan dimo
     // activity speech text
     <string name="st_tvResult">Hasil</string>
     <string name="ST_act">Ucapkan teks Anda</string>
+    <string name="speech_start">Ketuk mikrofon untuk memulai</string>
+    <string name="heading_cp">"Sudut: "</string>
+    <string name="degrees_cp">" derajat"</string>
+
 
     // activity stopwatch
     <string name="sw_timer">Timer</string>
@@ -190,6 +194,10 @@ Halaman Terms and Conditions ini dibuat menggunakan App Privacy Policy Generator
     <string name="tr_tvResult">Hasil</string>
     <string name="tr_tvImagePreview">Pratinjau Gambar</string>
     <string name="menu_mainImageTitle">Text Recognition</string>
+    <string name="tr_start">Ketuk simbol gambar di bilah atas untuk memulai</string>
+    <string name="camera_slct">Kamera</string>
+    <string name="gallery_slct">Galery</string>
+    <string name="choose_img" >Pilih Gambar</string>
 
 
     // preference_setting
@@ -213,5 +221,6 @@ Halaman Terms and Conditions ini dibuat menggunakan App Privacy Policy Generator
     <string name="height">Tinggi (Cm) :</string>
     <string name="input_height">Masukkan tinggi badan</string>
     <string name="result">Hasil</string>
+
 
 </resources>

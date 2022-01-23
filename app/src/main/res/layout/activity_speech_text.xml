@@ -69,6 +69,6 @@
             android:layout_margin="10dp"
             android:textSize="11dp"
             android:textColor="@color/warning_color"
-            android:text="Tap on mic to start" />
+            android:text="@string/speech_start" />
     </LinearLayout>
 </RelativeLayout>

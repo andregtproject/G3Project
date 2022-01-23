@@ -25,7 +25,7 @@
                 android:layout_margin="10dp"
                 android:textSize="11dp"
                 android:textColor="@color/warning_color"
-                android:text="!! Tap on picture symbol on top bar to start" />
+                android:text="@string/tr_start" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"

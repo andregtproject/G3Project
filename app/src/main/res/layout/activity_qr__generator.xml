@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:onClick="barCodeButton"
-        android:text="@string/qr_btnGenerate"
+        android:text="@string/bg_button"
         android:layout_below="@+id/cdEditText"
         android:paddingLeft="35dp"
         android:paddingRight="35dp"
